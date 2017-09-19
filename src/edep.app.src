@@ -3,6 +3,6 @@
               {description,"Main module for generic distribution application"},
               {modules,[]},
               {registered,[]},
-              {applications,[compiler,kernel,stdlib,sasl,lager]},
+              {applications,[compiler,kernel,stdlib]},
               {env,[]},
               {mod,{dapp_app,[]}}]}.
