@@ -1,0 +1,6 @@
+-name edep
+-setcookie edep
+-start_epmd true
++Bi
++K true
++A30

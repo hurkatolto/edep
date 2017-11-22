@@ -1,8 +1,8 @@
 {application,edep,
              [{vsn, git},
-              {description,"Main module for generic distribution application"},
-              {modules,[]},
+              {description,""},
+              {modules, [edep, edep_sup, person]},
               {registered,[]},
-              {applications,[compiler,kernel,stdlib]},
+              {applications, [kernel, stdlib]},
               {env,[]},
-              {mod,{dapp_app,[]}}]}.
+              {mod,{edep,[]}}]}.
