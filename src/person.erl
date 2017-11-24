@@ -1,15 +1,21 @@
 %% -*- erlang-indent-level: 4;indent-tabs-mode: nil -*-
 %% ex: ts=4 sw=4 et
 -module(person).
+
+%% it's behaviour of many
 -behaviour(csi_server).
+-behavour(gen_server).
 
 -record(service_state, {
-          name :: string()
+          name :: string(),
+          long_name :: string()
         }).
 
 -record(session_state, {
           name :: string()
          }).
+
+-state_record(service_state).
 
 -define(SERVICE, person).
 
@@ -64,4 +70,3 @@ terminate_service(Reason, _State) ->
 terminate(Reason, #session_state{} = State) ->
     io:format("~p ~p {Reason, State}: '~p' ~n", [?MODULE, ?LINE, {Reason, State}]),
     ok.
-
