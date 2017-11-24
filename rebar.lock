@@ -1,1 +1,16 @@
-[].
+[{<<"csi">>,
+  {git,"ssh://git@bitbucket.erfk.kozpont.otp:7999/core/commonservice.git",
+       {ref,"1e698e33f68f6c7a8e6de12ef74e7f77f8dd2728"}},
+  0},
+ {<<"goldrush">>,
+  {git,"https://github.com/basho/goldrush.git",
+       {ref,"8f1b715d36b650ec1e1f5612c00e28af6ab0de82"}},
+  2},
+ {<<"lager">>,
+  {git,"https://github.com/basho/lager.git",
+       {ref,"81eaef0ce98fdbf64ab95665e3bc2ec4b24c7dac"}},
+  1},
+ {<<"parse_trans">>,
+  {git,"https://github.com/uwiger/parse_trans.git",
+       {ref,"6f3645afb43c7c57d61b54ef59aecab288ce1013"}},
+  0}].

@@ -2,3 +2,5 @@
 _build
 ebin/*
 src/*.beam
+_checkouts
+log

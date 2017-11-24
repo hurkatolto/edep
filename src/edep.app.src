@@ -1,8 +1,8 @@
 {application,edep,
-             [{vsn, git},
+             [{vsn, "1.1"},
               {description,""},
               {modules, [edep, edep_sup, person]},
               {registered,[]},
-              {applications, [kernel, stdlib]},
+              {applications, [kernel, stdlib, csi]},
               {env,[]},
               {mod,{edep,[]}}]}.
