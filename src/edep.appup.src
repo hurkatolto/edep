@@ -1,0 +1,14 @@
+{"{{vsn}}",
+  [
+    {<<".*">>, [ 
+        {apply, {io, format, ["src upgrade to 1.0.3\n"]}}
+               ]
+    }
+  ],
+  [
+    {<<".*">>, [ 
+        {apply, {io, format, ["src upgrade to 1.0.3\n"]}}
+               ]
+    }
+  ]
+}.
