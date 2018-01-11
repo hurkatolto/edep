@@ -1,5 +1,5 @@
 {application,edep,
-             [{vsn, "1.0.5"},
+             [{vsn, "1.0.6"},
               {description,""},
               {modules, [edep, edep_sup, person]},
               {registered,[]},
